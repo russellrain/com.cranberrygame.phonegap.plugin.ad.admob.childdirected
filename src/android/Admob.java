@@ -502,6 +502,10 @@ public class Admob extends CordovaPlugin {
 				String deviceId = Util.md5(ANDROID_ID).toUpperCase();
 				builder.addTestDevice(deviceId);		
 			}
+			
+			//Child Directed setting - https://developers.google.com/mobile-ads-sdk/docs/admob/android/targeting
+			builder.tagForChildDirectedTreatment(true);
+			
 			AdRequest request = builder.build();
 			bannerView.loadAd(request);	            	
 		}
@@ -636,6 +640,10 @@ public class Admob extends CordovaPlugin {
 				String deviceId = Util.md5(ANDROID_ID).toUpperCase();
 				builder.addTestDevice(deviceId);		
 			}
+			
+			//Child Directed setting - https://developers.google.com/mobile-ads-sdk/docs/admob/android/targeting
+			builder.tagForChildDirectedTreatment(true);
+			
 			AdRequest request = builder.build();			
 			interstitialView.loadAd(request);	
 		}
