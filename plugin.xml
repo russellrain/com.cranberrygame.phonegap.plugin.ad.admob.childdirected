@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.cranberrygame.phonegap.plugin.ad.admob.childdirected"
-    version="1.0.32">
+    id="com.cranberrygame.phonegap.plugin.ad.admob"
+    version="1.0.31">
 	
-    <name>Phonegap Admob plugin + Child Directed Setting applied</name>
+    <name>Phonegap Admob plugin</name>
     <description>Phonegap Admob plugin</description>
     <author>Sang Ki Kwon (Cranberrygame)</author>		
     <license>MIT</license>
     <keywords>phonegap, plugin, ad, admob, overlap, split</keywords>
-    <repo>https://github.com/russellrain/com.cranberrygame.phonegap.plugin.ad.admob.childdirected</repo>
+    <repo>https://github.com/cranberrygame/com.cranberrygame.phonegap.plugin.ad.admob</repo>
     <issue>https://github.com/cranberrygame/com.cranberrygame.phonegap.plugin.ad.admob/issues</issue> 	
 	<engines>
 	    <engine name="cordova" version=">=3.0.0" />
